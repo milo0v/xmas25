@@ -1,4 +1,4 @@
-﻿body {
+body {
     margin: 0;
     height: 100vh;
     display: flex;
@@ -12,7 +12,6 @@
 .cena {
     position: relative;
     width: 300px;
-    margin-top: 100px;
 }
 
 .arvore {
@@ -29,8 +28,8 @@
 .presente {
     width: 120px;
     position: absolute;
-    bottom: 50px;
-    left: 50%;
+    bottom: 70px;
+    left: 40%;
     transform: translateX(-50%);
     cursor: pointer;
     z-index: 2;
@@ -126,7 +125,7 @@
 .estrela {
     position: absolute;
     width: 60px;     /* ajuste conforme a árvore */
-    top: 5px;      /* sobe acima da árvore */
+    top: -530px;      /* sobe acima da árvore */
     left: 12%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -140,4 +139,3 @@
 .estrela:active {
     transform: translateX(-50%) scale(0.8);
 }
-
